@@ -1,0 +1,1 @@
+{"name":"conll", "description":"CoNLL data loader", "maintainer": "Paul McCann <polm@dampfkraft.com>", "latest_release": "2020-11-09", "latest_ver": "v0.1.0", "url": "https://github.com/polm/visidata-conll", "visidata_ver": "v2.0", "pydeps": "pyconll"}
