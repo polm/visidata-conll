@@ -50,3 +50,4 @@ class ConllSheet(TableSheet):
                             token.xpos, token.feats, token.head, token.deprel, token.deps, token.misc]
 
 
+vd.addGlobals(globals())
