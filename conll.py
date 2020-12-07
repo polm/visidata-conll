@@ -1,15 +1,15 @@
 __name__ = "conll"
 __author__ = "Paul McCann <polm@dampfkraft.com>"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from visidata import *
 
 @VisiData.api
-def open_conll(p):
+def open_conll(vd, p):
     return ConllSheet(p.name, source=p)
 
 @VisiData.api
-def open_conllu(p):
+def open_conllu(vd, p):
     return ConllSheet(p.name, source=p)
 
 
